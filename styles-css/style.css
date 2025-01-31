@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-family: Roboto, Arial;
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+.thumbnail {
+  margin-bottom: 12px;
+  display: block;
+  position: relative;
+
+}
+/* .para1 {
+  width: 300px;
+} */
+.video1 {
+  display: inline-block;
+  /* margin-right: 15px; */
+}
+
+.video1-container {
+  position: relative;
+}
+.video2 {
+  display: inline-block;
+  margin-bottom: 50px;
+  vertical-align: top;
+}
+.video-info {
+  display: inline-block;
+  width: 200px;
+}
+.profile-pic {
+  margin-top: 0;
+  display: inline-block;
+  width: 50px;
+  vertical-align: top;
+  border-radius: 50px;
+}
+.para1 {
+  margin-top: 0;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 20px;
+  color: black;
+  margin-bottom: 12px;
+}
+.para2 {
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  margin-bottom: 4px;
+}
+.para3 {
+  font-size: 12px;
+  color: rgb(96, 96, 96);
+}
+
+.profile-details {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.profile-details1 {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.video-info1 {
+  margin-left: 3px;
+  display: inline-block;
+  width: 130px;
+}
+.profile-pic1 {
+  margin-top: 0;
+  display: inline-block;
+  width: 50px;
+  vertical-align: top;
+  border-radius: 50px;
+}
+.para4 {
+  margin-top: 0;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 20px;
+  color: black;
+  margin-bottom: 12px;
+}
+.para5 {
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  margin-bottom: 4px;
+}
+.para6 {
+  font-size: 12px;
+  color: rgb(96, 96, 96);
+}
+.profile-details {
+  margin-top: 10px;
+}
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 15px;
+  row-gap: 40px;
+}
+
+
+@media (max-width: 700px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+
+@media (min-width: 701px) and (max-width: 1200px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 2000px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.video-time {
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 12px;
+  right: 5px;
+  font-size: 15px;
+  border-radius: 2px;
+}
+
+.video2-container {
+  position: relative;
+}
+
+.video-time1 {
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 12px;
+  right: 5px;
+  font-size: 15px;
+  border-radius: 2px;
+}
